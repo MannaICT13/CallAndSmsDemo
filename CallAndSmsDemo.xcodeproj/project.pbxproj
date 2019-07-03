@@ -14,6 +14,8 @@
 		CE049ECA2204A65F0007DDDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE049EC82204A65F0007DDDD /* LaunchScreen.storyboard */; };
 		CE049ED52204A65F0007DDDD /* CallAndSmsDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE049ED42204A65F0007DDDD /* CallAndSmsDemoTests.swift */; };
 		CE049EE02204A65F0007DDDD /* CallAndSmsDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE049EDF2204A65F0007DDDD /* CallAndSmsDemoUITests.swift */; };
+		CE049EEF2204B1870007DDDD /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE049EEE2204B1870007DDDD /* MessageUI.framework */; };
+		CE13F7AA2205CAC10010517C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE13F7A92205CAC10010517C /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		CE049EDB2204A65F0007DDDD /* CallAndSmsDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CallAndSmsDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE049EDF2204A65F0007DDDD /* CallAndSmsDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallAndSmsDemoUITests.swift; sourceTree = "<group>"; };
 		CE049EE12204A65F0007DDDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE049EEE2204B1870007DDDD /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		CE13F7A92205CAC10010517C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE049EEF2204B1870007DDDD /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,7 @@
 				CE049ED32204A65F0007DDDD /* CallAndSmsDemoTests */,
 				CE049EDE2204A65F0007DDDD /* CallAndSmsDemoUITests */,
 				CE049EBD2204A65E0007DDDD /* Products */,
+				CE049EED2204B1870007DDDD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +106,7 @@
 				CE049EBF2204A65E0007DDDD /* AppDelegate.swift */,
 				CE049EC12204A65E0007DDDD /* ViewController.swift */,
 				CE049EC32204A65E0007DDDD /* Main.storyboard */,
+				CE13F7A92205CAC10010517C /* SecondViewController.swift */,
 				CE049EC62204A65F0007DDDD /* Assets.xcassets */,
 				CE049EC82204A65F0007DDDD /* LaunchScreen.storyboard */,
 				CE049ECB2204A65F0007DDDD /* Info.plist */,
@@ -123,6 +130,14 @@
 				CE049EE12204A65F0007DDDD /* Info.plist */,
 			);
 			path = CallAndSmsDemoUITests;
+			sourceTree = "<group>";
+		};
+		CE049EED2204B1870007DDDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE049EEE2204B1870007DDDD /* MessageUI.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE13F7AA2205CAC10010517C /* SecondViewController.swift in Sources */,
 				CE049EC22204A65E0007DDDD /* ViewController.swift in Sources */,
 				CE049EC02204A65E0007DDDD /* AppDelegate.swift in Sources */,
 			);
